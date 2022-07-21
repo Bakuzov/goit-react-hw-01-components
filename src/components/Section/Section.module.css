@@ -1,0 +1,15 @@
+.statistics {
+  font-size: 32;
+  color: rgb(73, 73, 73);
+  font-style: normal;
+  font-variant: small-caps;
+  font-variant-ligatures: historical-ligatures;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  padding-top: 17px;
+}
+.section {
+  width: 400px;
+  text-align: center;
+  background-color: rgb(238, 236, 241);
+}

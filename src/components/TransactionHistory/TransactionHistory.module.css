@@ -1,0 +1,52 @@
+/* th {
+  text-align: left;
+  color: #fff;
+  background-color: #706d97;
+}
+td {
+  min-width: 250px;
+  color: #696969;
+  border-bottom: 1px solid #eee;
+}
+th,
+td {
+  padding: 10px;
+  height: 20px;
+}
+td:first-child {
+  width: 150px;
+  min-width: 0;
+}
+th:last-child {
+  text-align: right;
+}
+td:last-child {
+  width: 80px;
+  min-width: 0;
+  text-align: right;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+} */
+
+table {
+  width: 400px;
+  border-collapse: collapse;
+}
+table thead tr {
+  color: #ffffff;
+  font-weight: bold;
+  background: #1b7758;
+}
+table thead tr td {
+  border: 1px solid #01ab73;
+}
+table tbody tr td {
+  border: 1px solid #e8e9eb;
+}
+table tbody tr:nth-child(2n) {
+  background: #f4f4f4;
+}
+table tbody tr:hover {
+  background: #ebffe8;
+}

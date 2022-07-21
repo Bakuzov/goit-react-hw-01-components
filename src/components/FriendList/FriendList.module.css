@@ -1,0 +1,33 @@
+.online {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.offline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 10px;
+}
+.item {
+  display: flex;
+  background-color: rgb(255, 255, 210);
+  width: 200px;
+  border: 1px solid;
+  border-radius: 5px;
+  align-items: center;
+  margin: 10px;
+  gap: 5px;
+}
+.name {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant-caps: all-petite-caps;
+}
